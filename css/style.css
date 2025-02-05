@@ -1,0 +1,155 @@
+/* universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.com-gap{
+    padding: 100px 0;
+}
+.btn{
+    display: inline-block;
+    padding: 27px 42px;
+    background-color: #fff;
+    border: 1px solid blue;
+    color: blue;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.btn:hover {
+    background-color: #4a1831;
+    color: #ffd7ad;
+    transition: .3s ease;
+}
+/* nav-items */
+/* header section */
+.header-section {
+    position: absolute;
+    width: 100%;
+    /* padding: 0 50px; */
+    /* background-color: #ffd7ad; */
+}
+.header-section-child{
+    display: flex;
+    justify-content: space-between;
+}
+.active a{
+    color: blue !important;
+}
+.active a:hover{
+    color: rgb(68, 24, 110) !important;
+}
+.header-section-child {
+    padding: 33px 0;
+   
+}
+
+.nav-items {
+    display: flex;
+    /* list-style: none; */
+    font-size: 20px;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.nav-items li {
+    margin: 0 40px;
+}
+.nav-items li a:hover {
+    color: blue;
+}
+/* --------nav-ends----------- */
+/* ---------banner section------ */
+.banner-section{
+    background-image: url(./img/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 300px 0;
+    min-height: 100vh;
+}
+.banner-section h1{
+    color: #fff;
+    font-size: 70px;
+    width: 50%;
+    
+}
+.banner-section p{
+    color: #fff;
+    width: 50%;
+    
+}
+.banner-section h1,p{
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+/* banner ends */
+.group-section-child p{
+    padding-bottom: 50px;
+}
+.group-section-child h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.group-section-card-child{
+    display: flex;
+
+}
+.card-one{
+    padding: 0 10px;
+    border-radius: 20px;
+}
+/* -------------------card-ends----------- */
+/* ------------profesional section--------------- */
+.profesional-section{
+    background-color: #111111;
+    width: 100%;
+}
+.profesional-section-child h2{
+    color: #fff;
+    padding: 30px 0;
+    font-size: 40px;
+}
+.profesional-section-child p{
+    font-size: 20px;
+    color: #fff;
+    padding: 50px 0;
+    
+}
+.profesional-section-child {
+    text-align: center;
+    width: 100%;
+    padding: 200px 0;
+}
+/*  ------------profesional section ends--------------- */
